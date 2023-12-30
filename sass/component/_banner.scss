@@ -1,0 +1,29 @@
+@import '../variables/variables';
+
+#banner{
+    padding: 255px 0;
+    position: relative;
+    margin-bottom: 60px;
+    .banner_text{
+        h5{
+            font-family: $primary_ff;
+            font-weight: 600;
+            font-size: 35px;
+            color: #fff;
+        }
+        h3{
+            font-family: $primary_ff;
+            font-weight: 700;
+            font-size: 70px;
+            color: #fff;
+        }
+        span{
+            font-family: $primary_ff;
+            font-weight: 600;
+            font-size: 40px;
+            color: #fff;
+            padding-left: 15px;
+            
+        }
+    }
+}

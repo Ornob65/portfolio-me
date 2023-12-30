@@ -1,0 +1,126 @@
+@media (max-width: 575px) {
+    .main_menu ul{
+        background: #fff;
+        padding: 20px 0;
+    }
+    .main_menu ul li a{
+        color: 000 !important;
+        text-align: center;
+    }
+    #banner{
+        padding: 150px 20px !important;
+    }
+    .banner_text h5{
+        font-size: 23px !important;
+    }
+    .banner_text h3{
+        font-size: 35px !important;
+    }
+    .banner_text span{
+        font-size: 23px !important;
+    }
+     .about_part .about_me {
+        display: block !important;
+       
+    }
+     .about_part .about_me .about_img {
+       width: 100% !important;
+       padding-left: 45px;
+       
+    }
+     .about_part .about_me .about_img img {
+       width: 370px !important;
+       
+    }
+     .about_part .about_me .about_text {
+        width: 100% !important;
+        padding-left: 25px;
+      }
+     .about_part .about_me .about_text h5{
+        font-size: 20px !important;
+        padding-top: 35px;
+      }
+     .about_part .about_me .about_text h2{
+        font-size: 25px !important;
+      }
+      #about .about_part .about_me .about_text address ul {
+        display: block !important;
+        
+      }
+      #about .about_part .about_me .about_text .about_social {
+        display: block !important;
+      }
+      #about .about_part .about_me .about_text .about_social button {
+        padding: 10px 25px;
+        border: none;
+        margin-left: 100px;
+        background: #27005D;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -ms-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+    }
+    #about .about_part .about_me .about_text .about_social .line_2 {
+        opacity: 0;
+        visibility: hidden;
+    }
+    #about .about_part .about_me .about_text .about_social .social_icons {
+        margin-left: 100px !important;
+    }
+    #about .about_part .about_me .about_text .about_social .social_icons a {
+        color: #000;
+        font-size: 30px !important;
+        margin-left: 15px !important;
+    }
+    #skill .skills_part .my_skills .skill_box {
+        width: 200px !important;
+        background: #fff;
+        padding: 25px 30px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    #skill .skills_part .my_skills {
+        display: flex;
+        gap: 40px !important;
+    }
+    #blog .blog_part .blog_1 .blog_img {
+        overflow: hidden;
+        margin-left: 30px;
+    }
+    #blog .blog_part .blog_1 .blog_text {
+        padding-left: 35px;
+    }
+    #blog .blog_part .blog_1 .blog_text a h3{
+       font-size: 22px !important;
+    }
+   #contact .form {
+	width: 100%;
+	max-width: 1050px;
+	margin: 0 !important;
+	background: #fff;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	overflow: hidden;
+	z-index: 1000;
+	display: block !important;
+	grid-template-columns: repeat(2, 1fr);
+}
+}
